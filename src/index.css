@@ -1,0 +1,14 @@
+html {
+  background: #282828;
+  color: #fff;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 100;
+  letter-spacing: .2px;
+}

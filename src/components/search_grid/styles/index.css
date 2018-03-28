@@ -1,0 +1,38 @@
+.search-grid {
+  column-count: 4;
+  column-gap: 1em;
+}
+
+.search-result {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.search-result .result-img {
+  width: 100%;
+  height: 0;
+  background: #00a8c5;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+}
+
+@media(max-width: 980px) {
+  .search-grid {
+    column-count: 3;
+  }
+}
+
+@media(max-width: 760px) {
+  .search-grid {
+    column-count: 2;
+  }
+}
+
+@media(max-width: 640px) {
+  .search-grid {
+    column-count: 1;
+  }
+}
